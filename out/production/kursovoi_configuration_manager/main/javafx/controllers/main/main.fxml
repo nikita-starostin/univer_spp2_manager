@@ -1,0 +1,31 @@
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.GridPane?>
+<GridPane xmlns:fx="http://javafx.com/fxml"
+          fx:controller="main.javafx.controllers.main.MainController">
+    <HBox spacing="10"
+          GridPane.columnIndex="0"
+          alignment="BASELINE_CENTER"
+          GridPane.rowIndex="0">
+        <Button text="Push to sources" onAction="#pushToSources"/>
+        <Button text="Pull from sources" onAction="#pullFromSources"/>
+        <Label text="Select value: "/>
+        <ComboBox fx:id="combobox" />
+    </HBox>
+    <TabPane GridPane.rowIndex="1"
+             GridPane.columnIndex="0"
+             GridPane.fillHeight="true"
+             GridPane.fillWidth="true"
+             GridPane.vgrow="ALWAYS"
+             GridPane.hgrow="ALWAYS">
+        <Tab text="values">
+            <fx:include source="../tabs/values/values.fxml"/>
+        </Tab>
+        <Tab text="sources">
+            <fx:include source="../tabs/sources/sources.fxml"/>
+        </Tab>
+        <Tab text="variables">
+            <fx:include source="../tabs/variables/variables.fxml"/>
+        </Tab>
+    </TabPane>
+</GridPane>

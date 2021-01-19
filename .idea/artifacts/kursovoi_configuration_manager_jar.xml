@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kursovoi_configuration_manager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kursovoi_configuration_manager_jar</output-path>
+    <root id="archive" name="kursovoi_configuration_manager.jar">
+      <element id="module-output" name="kursovoi_configuration_manager" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../lib/openjfx-15.0.1_windows-x64_bin-sdk/javafx-sdk-15.0.1/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Sources>
+        <Source absolutePath="F:\projects\spp2\kursovoi_configuration_manager\appsettings.Development.json"
+                alias="config 1"/>
+        <Source absolutePath="F:\projects\spp2\kursovoi_configuration_manager\appsettings.Staging.json"
+                alias="config 2"/>
+<!--        <Source absolutePath="F:\dev\talon\talon\web-app\net-core-api\Talon.AppHost.Central\appsettings.json"-->
+<!--                alias="app host central"/>-->
+<!--        <Source absolutePath="F:\dev\talon\talon\web-app\net-core-api\Talon.AppHost.Cart\appsettings.json"-->
+<!--                alias="app host cart"/>-->
+    </Sources>
+</Configuration>
+

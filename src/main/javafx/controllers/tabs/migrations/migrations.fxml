@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="main.javafx.controllers.tabs.migrations.MigrationsController"
+      prefHeight="400.0" prefWidth="600.0">
+    <HBox>
+        <CheckBox text="skip build"/>
+        <Button text="Add migration" onAction="#addMigration"/>
+        <Button text="Remove migration" onAction="#removeMigration"/>
+        <Button text="Refresh" onAction="#refresh"/>
+    </HBox>
+    <TableView fx:id="migrationsTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+               minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1"
+               xmlns="http://javafx.com/javafx/8">
+        <columns>
+            <TableColumn fx:id="dbname" prefWidth="75.0" text="dbname"/>
+            <TableColumn fx:id="lastMigration" prefWidth="115.0" text="last migration"/>
+            <TableColumn fx:id="actualMigration" prefWidth="144.0" text="actual migration"/>
+        </columns>
+    </TableView>
+</VBox>
